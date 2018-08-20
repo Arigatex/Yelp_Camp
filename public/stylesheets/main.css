@@ -1,0 +1,65 @@
+#landing{
+background: url("https://misadventuresmag.com/wp-content/uploads/2015/06/Camping-Near-The-Lake-Background-Wallpaper-e1437489294343.jpg") no-repeat center center;
+background-size: cover;
+height: 100vh;
+text-align: center;
+}
+
+
+#title{
+    margin-top: 35vh;
+    font-size: 10vh;
+    font-weight: bold;
+    color: lightgray;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.jumbotron{
+margin-bottom: 1rem;
+margin-top: 15px;
+}
+#back{
+    display: block;
+    margin-bottom: 2rem;
+}
+figure, .lead{
+    margin-top: 15px;
+}
+
+#images{
+    border-top-right-radius:1rem !important; 
+    border-top-left-radius:1rem !important;
+}
+
+.img-thumbnail{
+    padding: 0;
+}
+
+.container .rounded{
+    background: lightgray;
+  
+}
+
+.camp{
+    border: 0.5px solid lightgrey;
+    padding-bottom: 10px;
+    border-radius: 1rem;
+    
+}
+.rounded{
+    padding: 0;
+    width: 100%;
+    border-radius: 1rem !important;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+#copyright{
+    font-style: italic;
+    text-align: right;
+}
+.camp-names{
+    font-size: 1.2rem;
+}
