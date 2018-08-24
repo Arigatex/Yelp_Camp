@@ -74,3 +74,23 @@ figure, .lead{
 .delete-form{
     display: inline;
 }
+
+.user-forms{
+margin-top: 20vh; 
+margin-bottom: 30vh; 
+}
+
+.campground-forms{
+    margin-top: 20vh; 
+    margin-bottom: 20vh; 
+}
+
+.comment-forms{
+    margin-top: 25vh; 
+    margin-bottom: 35vh; 
+}
+
+.form-fields{
+    width: 30%; 
+    margin: 25px auto;
+}
