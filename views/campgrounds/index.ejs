@@ -17,7 +17,7 @@
     <div class="row text-center">
         <% campgrounds.forEach(function(campground){ %>
             <div class="col-md-3 col-sm-6"> 
-                <div class="container rounded" style="border: 1px solid lightgray">
+                <div id="previews" class="container rounded">
                     <img class="img-thumbnail rounded-0" id="images" src="<%= campground.image %>">
                     <h4 class="camp-names" style="margin-bottom: 0"> <%= campground.name %> </h4>      
                 </div>

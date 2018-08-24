@@ -5,13 +5,21 @@ height: 100vh;
 text-align: center;
 }
 
+.alert{
+    margin-top: 10px; 
+}
 
-#title{
-    margin-top: 35vh;
-    font-size: 10vh;
-    font-weight: bold;
-    color: lightgray;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+#price{
+    color: seagreen;
+}
+
+#comments{
+    border: thin solid lightgrey;
+    border-radius: 1rem;
+}
+
+#description{
+    margin-bottom: 20px;
 }
 
 .jumbotron{
@@ -35,16 +43,15 @@ figure, .lead{
     padding: 0;
 }
 
-.container .rounded{
+#previews{
     background: lightgray;
-  
 }
 
 .camp{
-    border: 0.5px solid lightgrey;
+    border: thin solid lightgrey;
     padding-bottom: 10px;
     border-radius: 1rem;
-    
+    width: 100%;
 }
 .rounded{
     padding: 0;
@@ -62,4 +69,8 @@ figure, .lead{
 }
 .camp-names{
     font-size: 1.2rem;
+}
+
+.delete-form{
+    display: inline;
 }
