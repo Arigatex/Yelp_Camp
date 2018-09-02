@@ -19,8 +19,9 @@ var indexRoutes = require("./routes/index");
 //Local DB -> "mongodb://localhost:27017/yelp_camp_3"
 //Mongo Lab -> "mongodb://pedro:QfCfDYbBk5Bi@ds143242.mlab.com:43242/yelpcamp"
 
-console.log("Currently using: " + process.env.DATABASEURL);
-mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
+var url = process.env.DATABASEURL || "mongodb://localhost:27017/yelp_camp_3";
+console.log("Currently using: " + url);
+mongoose.connect(url, { useNewUrlParser: true });
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
